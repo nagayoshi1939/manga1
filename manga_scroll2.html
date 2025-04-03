@@ -16,9 +16,12 @@
       -webkit-overflow-scrolling: touch;
     }
     .scroll-container img {
-      height: 100vh;
-      scroll-snap-align: start;
-      flex-shrink: 0;
+  　　max-height: 100svh; /* スマホの「実際の表示領域」に合わせる */
+ 　　 width: auto;
+ 　　 height: auto;
+ 　　 max-width: 100%;
+ 　　 scroll-snap-align: start;
+ 　　 flex-shrink: 0;
     }
   </style>
 </head>
